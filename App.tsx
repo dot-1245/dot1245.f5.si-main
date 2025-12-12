@@ -50,7 +50,7 @@ const App: React.FC = () => {
       <header className="fixed top-0 left-0 w-full z-50 mix-blend-difference px-4 py-6 md:px-12">
         <div className="flex justify-between items-center border-b border-swiss-gray/50 pb-4">
           <h1 className="text-xl font-bold tracking-tighter">DOT1245</h1>
-          <span className="font-mono text-xs hidden md:block">{new Date().getFullYear()} © PORTFOLIO</span>
+          <span className="font-mono text-xs hidden md:block">{new Date().getFullYear()} © DOT1245</span>
         </div>
       </header>
 
@@ -160,6 +160,12 @@ const App: React.FC = () => {
               </div>
             </GridItem>
           </SwissGrid>
+          
+          <div className="mt-12 pt-6 border-t border-black/10 flex justify-end">
+            <span className="font-mono text-[10px] uppercase tracking-wider text-gray-500">
+              made by dot1245 and gemini with ❤
+            </span>
+          </div>
         </div>
       </main>
     </div>
