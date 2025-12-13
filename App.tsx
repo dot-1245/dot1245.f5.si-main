@@ -176,9 +176,9 @@ const App: React.FC = () => {
           <SwissGrid>
             <GridItem colSpan={4} mdColSpan={8} lgColSpan={8}>
               <h3 className="text-4xl md:text-6xl font-bold tracking-tight mb-8">
-                MINIMALISM.<br />
-                LINEARITY.<br />
-                FUNCTION.
+                BREAK.<br />
+                THINK.<br />
+                REBUILD.
               </h3>
             </GridItem>
             <GridItem colSpan={4} mdColSpan={8} lgColSpan={4} className="flex flex-col justify-between">
