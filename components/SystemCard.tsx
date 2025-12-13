@@ -14,7 +14,7 @@ export const SystemCard: React.FC<SystemCardProps> = ({ spec, isDark }) => {
     border: isDark ? 'border-swiss-gray' : 'border-swiss-black/20',
     hover: isDark ? 'hover:bg-white/5' : 'hover:bg-black/5',
     iconColor: isDark ? 'text-swiss-white' : 'text-swiss-black',
-    subText: isDark ? 'text-gray-400' : 'text-gray-600',
+    subText: isDark ? 'text-gray-300' : 'text-gray-600',
     highlight: isDark ? 'text-white' : 'text-black',
     label: isDark ? 'text-swiss-gray' : 'text-gray-500',
     borderLeft: isDark ? 'border-swiss-gray' : 'border-swiss-black/20'

@@ -49,7 +49,7 @@ const App: React.FC = () => {
     bg: isDark ? 'bg-swiss-black' : 'bg-swiss-white',
     text: isDark ? 'text-swiss-white' : 'text-swiss-black',
     selection: isDark ? 'selection:bg-white selection:text-black' : 'selection:bg-black selection:text-white',
-    subText: isDark ? 'text-gray-400' : 'text-gray-600',
+    subText: isDark ? 'text-gray-300' : 'text-gray-600',
     border: isDark ? 'border-swiss-white/20' : 'border-swiss-black/20',
     headerBorder: isDark ? 'border-swiss-gray/50' : 'border-swiss-black/10',
     identityBorder: isDark ? 'border-white' : 'border-black',
@@ -208,8 +208,8 @@ const App: React.FC = () => {
             </GridItem>
           </SwissGrid>
           
-          <div className="mt-12 pt-6 border-t border-current opacity-20 flex justify-end">
-            <span className="font-mono text-[10px] uppercase tracking-wider opacity-100">
+          <div className="mt-12 pt-6 border-t border-current border-opacity-20 flex justify-end">
+            <span className="font-mono text-[10px] uppercase tracking-wider opacity-60">
               made by dot1245 and gemini with ❤
             </span>
           </div>
