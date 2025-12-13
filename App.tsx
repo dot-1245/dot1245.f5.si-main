@@ -41,6 +41,18 @@ const App: React.FC = () => {
       de: "KDE Plasma",
       ds: "Wayland",
       wm: "KWin"
+    },
+    {
+      os: "Android",
+      version: "16",
+      type: "mobile",
+      hardware: "Pixel 7 / 128GB"
+    },
+    {
+      os: "Android",
+      version: "16",
+      type: "mobile",
+      hardware: "Pixel 10 / 128GB"
     }
   ];
 
@@ -164,7 +176,7 @@ const App: React.FC = () => {
             <GridItem colSpan={4} mdColSpan={6} lgColSpan={9}>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {systems.map((sys) => (
-                  <SystemCard key={sys.os} spec={sys} isDark={isDark} />
+                  <SystemCard key={sys.os + sys.hardware} spec={sys} isDark={isDark} />
                 ))}
               </div>
             </GridItem>

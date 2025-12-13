@@ -3,7 +3,7 @@ export interface SystemSpec {
   version: string;
   codename?: string;
   kernel?: string;
-  type: 'primary' | 'secondary';
+  type: 'primary' | 'secondary' | 'mobile';
   hardware?: string;
   de?: string;
   wm?: string;
