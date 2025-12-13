@@ -175,14 +175,16 @@ const App: React.FC = () => {
         <div className={`${theme.footerBg} ${theme.footerText} p-8 md:p-12 mt-20 transition-colors duration-500`}>
           <SwissGrid>
             <GridItem colSpan={4} mdColSpan={8} lgColSpan={8}>
-              <h3 className="text-4xl md:text-6xl font-bold tracking-tight mb-8">
+              {/* Reduced bottom margin from mb-8 to mb-1 */}
+              <h3 className="text-4xl md:text-6xl font-bold tracking-tight mb-1">
                 BREAK.<br />
                 THINK.<br />
                 REBUILD.
               </h3>
             </GridItem>
-            <GridItem colSpan={4} mdColSpan={8} lgColSpan={4} className="flex flex-col justify-between">
-              <Globe className="w-12 h-12 mb-4 md:mb-0" />
+            {/* Changed justify-between to justify-end with gap-6 to crush space between Globe and Contact */}
+            <GridItem colSpan={4} mdColSpan={8} lgColSpan={4} className="flex flex-col justify-end gap-6 pt-6 md:pt-0">
+              <Globe className="w-12 h-12" />
               <div className="space-y-4">
                  <p className="font-mono text-sm">
                    Contact me
@@ -208,7 +210,8 @@ const App: React.FC = () => {
             </GridItem>
           </SwissGrid>
           
-          <div className="mt-12 pt-6 border-t border-current border-opacity-20 flex justify-end">
+          {/* Reduced top margin from mt-12 to mt-4 */}
+          <div className="mt-4 pt-6 border-t border-current border-opacity-20 flex justify-end">
             <span className="font-mono text-[10px] uppercase tracking-wider opacity-60">
               made by dot1245 and gemini with ❤
             </span>
