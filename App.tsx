@@ -89,7 +89,7 @@ const App: React.FC = () => {
         <div className={`flex justify-between items-center border-b ${theme.headerBorder} pb-4`}>
           <h1 className="text-xl font-bold tracking-tighter">DOT1245</h1>
           <div className="flex items-center gap-4">
-            <span className="font-mono text-xs hidden md:block">{new Date().getFullYear()} © DOT1245</span>
+            <span className="font-sans font-normal text-xs hidden md:block">{new Date().getFullYear()} © DOT1245</span>
             <button 
               onClick={() => setIsDark(!isDark)}
               className="hover:scale-110 transition-transform duration-200 focus:outline-none"
