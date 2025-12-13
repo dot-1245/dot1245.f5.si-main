@@ -189,20 +189,21 @@ const App: React.FC = () => {
                  <p className="font-mono text-sm">
                    Contact me
                  </p>
-                 <div className="flex items-center gap-6 pt-2">
-                    <a href="https://www.youtube.com/@dot-1245" target="_blank" rel="noopener noreferrer" className={`transition-colors hover:scale-110 duration-200 hover:text-[#FF0000]`} aria-label="YouTube">
+                 {/* Icons: Added w-12 h-12 rounded-full hover:bg-white to force background on hover */}
+                 <div className="flex items-center gap-4 pt-2">
+                    <a href="https://www.youtube.com/@dot-1245" target="_blank" rel="noopener noreferrer" className={`flex items-center justify-center w-12 h-12 rounded-full transition-all duration-200 hover:bg-white hover:scale-110 hover:text-[#FF0000]`} aria-label="YouTube">
                       <SiYoutube size={24} />
                     </a>
-                    <a href="https://discord.com/users/781823733454733322" target="_blank" rel="noopener noreferrer" className={`transition-colors hover:scale-110 duration-200 hover:text-[#5865F2]`} aria-label="Discord">
+                    <a href="https://discord.com/users/781823733454733322" target="_blank" rel="noopener noreferrer" className={`flex items-center justify-center w-12 h-12 rounded-full transition-all duration-200 hover:bg-white hover:scale-110 hover:text-[#5865F2]`} aria-label="Discord">
                       <SiDiscord size={24} />
                     </a>
-                    <a href="https://steamcommunity.com/profiles/76561199340967978/" target="_blank" rel="noopener noreferrer" className={`transition-colors hover:scale-110 duration-200 hover:text-[#2a5298]`} aria-label="Steam">
+                    <a href="https://steamcommunity.com/profiles/76561199340967978/" target="_blank" rel="noopener noreferrer" className={`flex items-center justify-center w-12 h-12 rounded-full transition-all duration-200 hover:bg-white hover:scale-110 hover:text-[#2a5298]`} aria-label="Steam">
                       <SiSteam size={24} />
                     </a>
-                    <a href="https://open.spotify.com/user/9mvmw97oqtx5wxi8xcy9vwfsw" target="_blank" rel="noopener noreferrer" className={`transition-colors hover:scale-110 duration-200 hover:text-[#1ED760]`} aria-label="Spotify">
+                    <a href="https://open.spotify.com/user/9mvmw97oqtx5wxi8xcy9vwfsw" target="_blank" rel="noopener noreferrer" className={`flex items-center justify-center w-12 h-12 rounded-full transition-all duration-200 hover:bg-white hover:scale-110 hover:text-[#1ED760]`} aria-label="Spotify">
                       <SiSpotify size={24} />
                     </a>
-                    <a href="mailto:dot1245@proton.me" className={`transition-colors hover:scale-110 duration-200 ${theme.footerHover}`} aria-label="Email">
+                    <a href="mailto:dot1245@proton.me" className={`flex items-center justify-center w-12 h-12 rounded-full transition-all duration-200 hover:bg-white hover:scale-110 ${theme.footerHover}`} aria-label="Email">
                       <RiMailFill size={24} />
                     </a>
                  </div>
