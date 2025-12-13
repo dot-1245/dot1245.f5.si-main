@@ -196,7 +196,7 @@ const App: React.FC = () => {
                     <a href="https://discord.com/users/781823733454733322" target="_blank" rel="noopener noreferrer" className={`transition-colors hover:scale-110 duration-200 hover:text-[#5865F2]`} aria-label="Discord">
                       <SiDiscord size={24} />
                     </a>
-                    <a href="https://steamcommunity.com/profiles/76561199340967978/" target="_blank" rel="noopener noreferrer" className={`transition-colors hover:scale-110 duration-200 hover:text-[#1A9FFF]`} aria-label="Steam">
+                    <a href="https://steamcommunity.com/profiles/76561199340967978/" target="_blank" rel="noopener noreferrer" className={`transition-colors hover:scale-110 duration-200 hover:text-[#2a5298]`} aria-label="Steam">
                       <SiSteam size={24} />
                     </a>
                     <a href="https://open.spotify.com/user/9mvmw97oqtx5wxi8xcy9vwfsw" target="_blank" rel="noopener noreferrer" className={`transition-colors hover:scale-110 duration-200 hover:text-[#1ED760]`} aria-label="Spotify">
