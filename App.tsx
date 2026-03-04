@@ -37,7 +37,8 @@ const App: React.FC = () => {
       type: "primary",
       kernel: "Linux",
       ds: "Wayland",
-      wm: "hyprland"
+      wm: "hyprland",
+      version:"Rolling Release"
     },
     {
       os: "Android",
