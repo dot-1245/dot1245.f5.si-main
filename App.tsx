@@ -28,13 +28,13 @@ const App: React.FC = () => {
     {
       os: "Windows 11",
       version: "25H2",
-      type: "sub",
+      type: "secondary",
       kernel: "NT 10.0",
       hardware: "i5-12400F / RTX 3060"
     },
     {
       os: "Arch Linux",
-      type: "main",
+      type: "primary",
       kernel: "Linux",
       ds: "Wayland",
       wm: "hyprland"
