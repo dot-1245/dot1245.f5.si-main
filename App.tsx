@@ -198,7 +198,7 @@ const App: React.FC = () => {
                     <a href="https://www.youtube.com/@dot-1245" target="_blank" rel="noopener noreferrer" className={`flex items-center justify-center w-12 h-12 rounded-full transition-all duration-200 hover:bg-white hover:scale-110 hover:text-[#FF0000]`} aria-label="YouTube">
                       <SiYoutube size={24} />
                     </a>
-                    <a href="https://discord.com/users/781823733454733322" target="_blank" rel="noopener noreferrer" className={`flex items-center justify-center w-12 h-12 rounded-full transition-all duration-200 hover:bg-white hover:scale-110 hover:text-[#5865F2]`} aria-label="Discord">
+                    <a href="https://d.dot1245.net/" target="_blank" rel="noopener noreferrer" className={`flex items-center justify-center w-12 h-12 rounded-full transition-all duration-200 hover:bg-white hover:scale-110 hover:text-[#5865F2]`} aria-label="Discord">
                       <SiDiscord size={24} />
                     </a>
                     <a href="https://steamcommunity.com/profiles/76561199340967978/" target="_blank" rel="noopener noreferrer" className={`flex items-center justify-center w-12 h-12 rounded-full transition-all duration-200 hover:bg-white hover:scale-110 hover:text-[#2a5298]`} aria-label="Steam">
