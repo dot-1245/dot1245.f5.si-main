@@ -1,6 +1,6 @@
 export interface SystemSpec {
   os: string;
-  version:? string;
+  version?: string;
   codename?: string;
   kernel?: string;
   type: 'primary' | 'secondary' | 'mobile';
